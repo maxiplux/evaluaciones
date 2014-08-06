@@ -1,9 +1,9 @@
 # -*- coding: cp1252 -*-
 __author__ = 'Juan'
-AFIRMACIONES_BOOL = (
-    (True, "SI"),
-    (False, "NO"),
-)
+def TAMANO_EMPRESA():
+
+    for i in range(0,100,5)+[10000]:
+        yield  (i,"%s-%s"%(i,i+5))
 
 MULTIMODO_CHOICES = (
     (1, "Validado para obligaciones"),

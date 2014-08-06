@@ -1,3 +1,4 @@
+# -*- coding: cp1252 -*-
 """
 Django settings for evaluaciones project.
 
@@ -40,11 +41,18 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+
     'modulos',
     'modulos.climas',
     'modulos.empresas',
     'modulos.encuestas',
     'modulos.competencias',
+    'modulos.localizaciones',
+    'modulos.utilidades',
+    'sorl.thumbnail',
+    'django_extensions',
+    'import_export',
 
 )
 

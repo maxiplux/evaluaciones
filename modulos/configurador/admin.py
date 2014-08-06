@@ -5,4 +5,4 @@ from modulos.utilidades.utiladmin import GenerateAdmins
 
 
 
-GenerateAdmins([Rol])
+#GenerateAdmins([Pais])

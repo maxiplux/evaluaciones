@@ -19,4 +19,4 @@ class CiudadAdmin(ImportExportModelAdmin):
         }
 
 #admin.site.register(Ciudad,CiudadAdmin)
-GenerateAdmins([Departamento,Grupo,RutaMaestra,Ruta])
+GenerateAdmins([Departamentos,Ciudades,Paises])

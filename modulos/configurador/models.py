@@ -3,7 +3,7 @@ from django.db import models
 from modulos.maestras.models import Maestra
 
 
-class TipoMenu(Maestra):
+class Secctor(Maestra):
     class Meta(Maestra.Meta):
-        verbose_name = u"Tipo menu"
-        verbose_name_plural = "Tipos de menus"
+        verbose_name = u"Secctor"
+        verbose_name_plural = "Secctores empresariales"
